@@ -15,7 +15,7 @@ class StudentController extends Controller
      */
      public function __construct()
 {
-    $this->middleware('auth');    
+    $this->middleware('auth');
 }
 
     public function index()
@@ -31,7 +31,7 @@ class StudentController extends Controller
                          })
                 ->orderBy('created_at', 'desc')
                 ->paginate(5);
-        return view('admin.freelancers', compact('freelancers'));
+        return view('admin.payment', compact('freelancers'));
     }
 
     public function banFreelancer(Request $request) {

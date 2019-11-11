@@ -1,4 +1,4 @@
-@extends('admin.layouts')
+@extends('admin.layouts.layouts')
 
 @section('content')
     <section class="content">
@@ -15,7 +15,7 @@
                             <i class="material-icons">playlist_add_check</i>
                         </div>
                         <div class="content">
-                            <div class="text">NEW TASKS</div>
+                            <div class="text">Paid Token</div>
                             <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                             <i class="material-icons">help</i>
                         </div>
                         <div class="content">
-                            <div class="text">NEW TICKETS</div>
+                            <div class="text">Unpaid Token</div>
                             <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20"></div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                             <i class="material-icons">person_add</i>
                         </div>
                         <div class="content">
-                            <div class="text">NEW VISITORS</div>
+                            <div class="text">Total Registered Students</div>
                             <div class="number count-to" data-from="0" data-to="1225" data-speed="1000" data-fresh-interval="20"></div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="card">
                         <div class="body bg-teal">
-                            <div class="font-bold m-b--35">ANSWERED TICKETS</div>
+                            <div class="font-bold m-b--35">Token Information</div>
                             <ul class="dashboard-stat-list">
                                 <li>
                                     TODAY
@@ -194,7 +194,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="card">
                         <div class="header">
-                            <h2>TASK INFOS</h2>
+                            <h2>User INFOS</h2>
                             <ul class="header-dropdown m-r--5">
                                 <li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
