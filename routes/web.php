@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('launch');
+    return view('welcome');
 });
 
 Route::get('/old', function () {

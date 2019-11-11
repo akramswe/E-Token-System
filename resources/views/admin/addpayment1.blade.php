@@ -1,4 +1,4 @@
-@extends('admin.tbllayouts')
+@extends('admin.layouts.tbllayouts')
    @section('content')
     <section class="content">
         <div class="container-fluid">

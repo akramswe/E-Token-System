@@ -1,4 +1,4 @@
-@extends('admin.paymentlayout')
+@extends('admin.layouts.paymentlayout')
 
 @section('title')
 E-Token System
